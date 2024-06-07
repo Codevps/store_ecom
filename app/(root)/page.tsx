@@ -12,6 +12,7 @@ export default function Home() {
         width={2000}
         height={1000}
         className="w-screen"
+        style={{ borderRadius: "0 0 12% 12%" }}
       />
       <Collections />
       <ProductList />
