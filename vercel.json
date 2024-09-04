@@ -1,9 +1,9 @@
 {
   "routes": {
     "/api/*": {
-      "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+      "methods": ["*"],
       "allowedHeaders": ["*"],
-      "allowedOrigins": ["https://ecom-admin-sand.vercel.app/"]
+      "allowedOrigins": ["*"]
     }
   }
 }
